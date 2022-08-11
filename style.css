@@ -1,0 +1,31 @@
+#parent{
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    background: linear-gradient(rgb(143, 252, 143), rgb(251, 251, 145));
+    opacity: 55%;
+    display: flex;
+    margin: auto auto auto auto;
+}
+#parent div{
+    width: 40%;
+    height: auto;
+    background-color: bisque;
+    margin: auto;
+    text-align: center;
+    top: 0;
+}
+#btndiv{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#btn{
+    padding: 20px;
+    cursor: pointer;
+    margin: auto 10px;
+} 
+#dlt{
+    padding: 20px;
+    cursor: pointer;
+}
